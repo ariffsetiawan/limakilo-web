@@ -250,6 +250,10 @@
       </div>
       <!-- End Full Width Section 2 -->
 
+
+
+
+
       <!-- Start Portfolio Section -->
       <div class="project">
         <div class="container">
@@ -269,10 +273,17 @@
                     </a>
                   </div>
                   <div class="portfolio-details">
-                    <span><%=data[i].city%></span>
+                    <a href="city"><i class="fa fa-map-marker"></i> <%=data[i].city%></a>
                     <a href="campaign/<%=data[i].id%>"><h4><%=data[i].title%></h4></a>
                       <p><%=data[i].description%></p>
                   </div>
+                  <div class="progress">
+                  <div class="progress-bar" role="progressbar" data-percentage="80">
+                    <span class="progress-bar-span">80%</span>
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+
                 </div>
               </div>
 
